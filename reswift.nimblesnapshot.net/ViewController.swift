@@ -7,18 +7,31 @@
 //
 
 import UIKit
+import ReSwift
 
 class ViewController: UIViewController {
     @IBOutlet weak var ohayoulabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        mainStore.subscribe(self)
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        ohayoulabel.text = ohayoulabel.text! + "---[prepare(for segue]---"
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        ohayoulabel.text = "[edited]おはよう"
+        mainStore.dispatch(
+            CounterActionIncrease()
+        )
+//        ohayoulabel.text = ohayoulabel.text! + "---[viewWillAppear]---"
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        mainStore.unsubscribe(self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,3 +42,8 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: StoreSubscriber {
+    func newState(state: AppState) {
+        ohayoulabel.text = "\(state.counter)"
+    }
+}

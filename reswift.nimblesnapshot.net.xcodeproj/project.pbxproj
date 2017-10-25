@@ -21,6 +21,7 @@
 		7ED93FAD1FA069F600C7FC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E599EFB1FA05DFD00D1D598 /* Main.storyboard */; };
 		7ED93FAF1FA06B1400C7FC47 /* QuickSpec+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93FAE1FA06B1400C7FC47 /* QuickSpec+Helper.swift */; };
 		7ED93FB11FA06B2A00C7FC47 /* QuickSpec+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93FB01FA06B2A00C7FC47 /* QuickSpec+Stub.swift */; };
+		7ED93FB31FA0701C00C7FC47 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93FB21FA0701C00C7FC47 /* AppState.swift */; };
 		873588CB4CE486B730874CC6 /* Pods_reswift_nimblesnapshot_netTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B20DC780A8C869DF85B23B /* Pods_reswift_nimblesnapshot_netTests.framework */; };
 		DC6720BCCA15516DE33E59FC /* Pods_reswift_nimblesnapshot_netUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2946E091F3AECAD1745F1B4 /* Pods_reswift_nimblesnapshot_netUITests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		7ED93FAB1FA0665E00C7FC47 /* DInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DInjector.swift; sourceTree = "<group>"; };
 		7ED93FAE1FA06B1400C7FC47 /* QuickSpec+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuickSpec+Helper.swift"; sourceTree = "<group>"; };
 		7ED93FB01FA06B2A00C7FC47 /* QuickSpec+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuickSpec+Stub.swift"; sourceTree = "<group>"; };
+		7ED93FB21FA0701C00C7FC47 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		82EE76E6BA759E53FCE7B410 /* Pods-reswift.nimblesnapshot.netTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reswift.nimblesnapshot.netTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-reswift.nimblesnapshot.netTests/Pods-reswift.nimblesnapshot.netTests.release.xcconfig"; sourceTree = "<group>"; };
 		95CBB79442F37001FFFD2816 /* Pods-reswift.nimblesnapshot.netUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reswift.nimblesnapshot.netUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reswift.nimblesnapshot.netUITests/Pods-reswift.nimblesnapshot.netUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2946E091F3AECAD1745F1B4 /* Pods_reswift_nimblesnapshot_netUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reswift_nimblesnapshot_netUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 			children = (
 				7E599EF71FA05DFD00D1D598 /* AppDelegate.swift */,
 				7E599EF91FA05DFD00D1D598 /* ViewController.swift */,
+				7ED93FB21FA0701C00C7FC47 /* AppState.swift */,
 				7ED93FAB1FA0665E00C7FC47 /* DInjector.swift */,
 				7E599EFB1FA05DFD00D1D598 /* Main.storyboard */,
 				7E599EFE1FA05DFD00D1D598 /* Assets.xcassets */,
@@ -493,6 +496,7 @@
 				7E599EFA1FA05DFD00D1D598 /* ViewController.swift in Sources */,
 				7ED93FAC1FA0665E00C7FC47 /* DInjector.swift in Sources */,
 				7E599EF81FA05DFD00D1D598 /* AppDelegate.swift in Sources */,
+				7ED93FB31FA0701C00C7FC47 /* AppState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
