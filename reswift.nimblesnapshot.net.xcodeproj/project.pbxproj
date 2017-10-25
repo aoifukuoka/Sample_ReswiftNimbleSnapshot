@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		727E54D4F2F0CE72C1C4368E /* Pods_reswift_nimblesnapshot_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586B1A2DDC9845E8B59D8B8C /* Pods_reswift_nimblesnapshot_net.framework */; };
 		7E599EF81FA05DFD00D1D598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E599EF71FA05DFD00D1D598 /* AppDelegate.swift */; };
 		7E599EFA1FA05DFD00D1D598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E599EF91FA05DFD00D1D598 /* ViewController.swift */; };
 		7E599EFD1FA05DFD00D1D598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E599EFB1FA05DFD00D1D598 /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		7E599F021FA05DFD00D1D598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E599F001FA05DFD00D1D598 /* LaunchScreen.storyboard */; };
 		7E599F0D1FA05DFD00D1D598 /* reswift_nimblesnapshot_netTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E599F0C1FA05DFD00D1D598 /* reswift_nimblesnapshot_netTests.swift */; };
 		7E599F181FA05DFD00D1D598 /* reswift_nimblesnapshot_netUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E599F171FA05DFD00D1D598 /* reswift_nimblesnapshot_netUITests.swift */; };
+		7ED93FA81FA0655200C7FC47 /* ViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93FA71FA0655200C7FC47 /* ViewControllerSpec.swift */; };
+		7ED93FAA1FA065CE00C7FC47 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93FA91FA065CE00C7FC47 /* Mock.swift */; };
+		7ED93FAC1FA0665E00C7FC47 /* DInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93FAB1FA0665E00C7FC47 /* DInjector.swift */; };
+		7ED93FAD1FA069F600C7FC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E599EFB1FA05DFD00D1D598 /* Main.storyboard */; };
+		7ED93FAF1FA06B1400C7FC47 /* QuickSpec+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93FAE1FA06B1400C7FC47 /* QuickSpec+Helper.swift */; };
+		7ED93FB11FA06B2A00C7FC47 /* QuickSpec+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED93FB01FA06B2A00C7FC47 /* QuickSpec+Stub.swift */; };
+		873588CB4CE486B730874CC6 /* Pods_reswift_nimblesnapshot_netTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B20DC780A8C869DF85B23B /* Pods_reswift_nimblesnapshot_netTests.framework */; };
+		DC6720BCCA15516DE33E59FC /* Pods_reswift_nimblesnapshot_netUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2946E091F3AECAD1745F1B4 /* Pods_reswift_nimblesnapshot_netUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0995F8DEB2E2C3F827D04E8C /* Pods-reswift.nimblesnapshot.netUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reswift.nimblesnapshot.netUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-reswift.nimblesnapshot.netUITests/Pods-reswift.nimblesnapshot.netUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0BBD7249B6C6E3251125E1B1 /* Pods-reswift.nimblesnapshot.net.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reswift.nimblesnapshot.net.release.xcconfig"; path = "Pods/Target Support Files/Pods-reswift.nimblesnapshot.net/Pods-reswift.nimblesnapshot.net.release.xcconfig"; sourceTree = "<group>"; };
+		11725AC37F1D15EB7040AE66 /* Pods-reswift.nimblesnapshot.netTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reswift.nimblesnapshot.netTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reswift.nimblesnapshot.netTests/Pods-reswift.nimblesnapshot.netTests.debug.xcconfig"; sourceTree = "<group>"; };
+		586B1A2DDC9845E8B59D8B8C /* Pods_reswift_nimblesnapshot_net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reswift_nimblesnapshot_net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA08460144BD4D238AF022A /* Pods-reswift.nimblesnapshot.net.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reswift.nimblesnapshot.net.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reswift.nimblesnapshot.net/Pods-reswift.nimblesnapshot.net.debug.xcconfig"; sourceTree = "<group>"; };
 		7E599EF41FA05DFD00D1D598 /* reswift.nimblesnapshot.net.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reswift.nimblesnapshot.net.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E599EF71FA05DFD00D1D598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E599EF91FA05DFD00D1D598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,15 @@
 		7E599F131FA05DFD00D1D598 /* reswift.nimblesnapshot.netUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reswift.nimblesnapshot.netUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E599F171FA05DFD00D1D598 /* reswift_nimblesnapshot_netUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reswift_nimblesnapshot_netUITests.swift; sourceTree = "<group>"; };
 		7E599F191FA05DFD00D1D598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED93FA71FA0655200C7FC47 /* ViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSpec.swift; sourceTree = "<group>"; };
+		7ED93FA91FA065CE00C7FC47 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		7ED93FAB1FA0665E00C7FC47 /* DInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DInjector.swift; sourceTree = "<group>"; };
+		7ED93FAE1FA06B1400C7FC47 /* QuickSpec+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuickSpec+Helper.swift"; sourceTree = "<group>"; };
+		7ED93FB01FA06B2A00C7FC47 /* QuickSpec+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuickSpec+Stub.swift"; sourceTree = "<group>"; };
+		82EE76E6BA759E53FCE7B410 /* Pods-reswift.nimblesnapshot.netTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reswift.nimblesnapshot.netTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-reswift.nimblesnapshot.netTests/Pods-reswift.nimblesnapshot.netTests.release.xcconfig"; sourceTree = "<group>"; };
+		95CBB79442F37001FFFD2816 /* Pods-reswift.nimblesnapshot.netUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reswift.nimblesnapshot.netUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reswift.nimblesnapshot.netUITests/Pods-reswift.nimblesnapshot.netUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2946E091F3AECAD1745F1B4 /* Pods_reswift_nimblesnapshot_netUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reswift_nimblesnapshot_netUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B20DC780A8C869DF85B23B /* Pods_reswift_nimblesnapshot_netTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reswift_nimblesnapshot_netTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727E54D4F2F0CE72C1C4368E /* Pods_reswift_nimblesnapshot_net.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873588CB4CE486B730874CC6 /* Pods_reswift_nimblesnapshot_netTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +93,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6720BCCA15516DE33E59FC /* Pods_reswift_nimblesnapshot_netUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F803BAE12C3282F805D3CB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EA08460144BD4D238AF022A /* Pods-reswift.nimblesnapshot.net.debug.xcconfig */,
+				0BBD7249B6C6E3251125E1B1 /* Pods-reswift.nimblesnapshot.net.release.xcconfig */,
+				11725AC37F1D15EB7040AE66 /* Pods-reswift.nimblesnapshot.netTests.debug.xcconfig */,
+				82EE76E6BA759E53FCE7B410 /* Pods-reswift.nimblesnapshot.netTests.release.xcconfig */,
+				95CBB79442F37001FFFD2816 /* Pods-reswift.nimblesnapshot.netUITests.debug.xcconfig */,
+				0995F8DEB2E2C3F827D04E8C /* Pods-reswift.nimblesnapshot.netUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7E599EEB1FA05DFD00D1D598 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				7E599F0B1FA05DFD00D1D598 /* reswift.nimblesnapshot.netTests */,
 				7E599F161FA05DFD00D1D598 /* reswift.nimblesnapshot.netUITests */,
 				7E599EF51FA05DFD00D1D598 /* Products */,
+				5F803BAE12C3282F805D3CB9 /* Pods */,
+				B2EAB501486F91597B7966FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +140,7 @@
 			children = (
 				7E599EF71FA05DFD00D1D598 /* AppDelegate.swift */,
 				7E599EF91FA05DFD00D1D598 /* ViewController.swift */,
+				7ED93FAB1FA0665E00C7FC47 /* DInjector.swift */,
 				7E599EFB1FA05DFD00D1D598 /* Main.storyboard */,
 				7E599EFE1FA05DFD00D1D598 /* Assets.xcassets */,
 				7E599F001FA05DFD00D1D598 /* LaunchScreen.storyboard */,
@@ -111,6 +153,10 @@
 			isa = PBXGroup;
 			children = (
 				7E599F0C1FA05DFD00D1D598 /* reswift_nimblesnapshot_netTests.swift */,
+				7ED93FA71FA0655200C7FC47 /* ViewControllerSpec.swift */,
+				7ED93FA91FA065CE00C7FC47 /* Mock.swift */,
+				7ED93FAE1FA06B1400C7FC47 /* QuickSpec+Helper.swift */,
+				7ED93FB01FA06B2A00C7FC47 /* QuickSpec+Stub.swift */,
 				7E599F0E1FA05DFD00D1D598 /* Info.plist */,
 			);
 			path = reswift.nimblesnapshot.netTests;
@@ -125,6 +171,16 @@
 			path = reswift.nimblesnapshot.netUITests;
 			sourceTree = "<group>";
 		};
+		B2EAB501486F91597B7966FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				586B1A2DDC9845E8B59D8B8C /* Pods_reswift_nimblesnapshot_net.framework */,
+				F8B20DC780A8C869DF85B23B /* Pods_reswift_nimblesnapshot_netTests.framework */,
+				F2946E091F3AECAD1745F1B4 /* Pods_reswift_nimblesnapshot_netUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E599F1C1FA05DFD00D1D598 /* Build configuration list for PBXNativeTarget "reswift.nimblesnapshot.net" */;
 			buildPhases = (
+				170A03904DB22AE97FCB57B4 /* [CP] Check Pods Manifest.lock */,
 				7E599EF01FA05DFD00D1D598 /* Sources */,
 				7E599EF11FA05DFD00D1D598 /* Frameworks */,
 				7E599EF21FA05DFD00D1D598 /* Resources */,
+				76E6F243F519DCDFE7594744 /* [CP] Embed Pods Frameworks */,
+				E7D3D771043CA1B3A40974F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E599F1F1FA05DFD00D1D598 /* Build configuration list for PBXNativeTarget "reswift.nimblesnapshot.netTests" */;
 			buildPhases = (
+				5C7EE8761087695625C7B1F9 /* [CP] Check Pods Manifest.lock */,
 				7E599F041FA05DFD00D1D598 /* Sources */,
 				7E599F051FA05DFD00D1D598 /* Frameworks */,
 				7E599F061FA05DFD00D1D598 /* Resources */,
+				30392A00779C388BC454ECDA /* [CP] Embed Pods Frameworks */,
+				0431AC2E081FA61F6D79A6D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E599F221FA05DFD00D1D598 /* Build configuration list for PBXNativeTarget "reswift.nimblesnapshot.netUITests" */;
 			buildPhases = (
+				7D086B63B3AD64D2E413BA0F /* [CP] Check Pods Manifest.lock */,
 				7E599F0F1FA05DFD00D1D598 /* Sources */,
 				7E599F101FA05DFD00D1D598 /* Frameworks */,
 				7E599F111FA05DFD00D1D598 /* Resources */,
+				B6049133EBA3F13DC717AD12 /* [CP] Embed Pods Frameworks */,
+				AB1AAB48119CB027384940AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED93FAD1FA069F600C7FC47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +320,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0431AC2E081FA61F6D79A6D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reswift.nimblesnapshot.netTests/Pods-reswift.nimblesnapshot.netTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		170A03904DB22AE97FCB57B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reswift.nimblesnapshot.net-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30392A00779C388BC454ECDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-reswift.nimblesnapshot.netTests/Pods-reswift.nimblesnapshot.netTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AsyncSwift/Async.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Async.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reswift.nimblesnapshot.netTests/Pods-reswift.nimblesnapshot.netTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C7EE8761087695625C7B1F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reswift.nimblesnapshot.netTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76E6F243F519DCDFE7594744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-reswift.nimblesnapshot.net/Pods-reswift.nimblesnapshot.net-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reswift.nimblesnapshot.net/Pods-reswift.nimblesnapshot.net-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D086B63B3AD64D2E413BA0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reswift.nimblesnapshot.netUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB1AAB48119CB027384940AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reswift.nimblesnapshot.netUITests/Pods-reswift.nimblesnapshot.netUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6049133EBA3F13DC717AD12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reswift.nimblesnapshot.netUITests/Pods-reswift.nimblesnapshot.netUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D3D771043CA1B3A40974F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reswift.nimblesnapshot.net/Pods-reswift.nimblesnapshot.net-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E599EF01FA05DFD00D1D598 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7E599EFA1FA05DFD00D1D598 /* ViewController.swift in Sources */,
+				7ED93FAC1FA0665E00C7FC47 /* DInjector.swift in Sources */,
 				7E599EF81FA05DFD00D1D598 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +500,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED93FAF1FA06B1400C7FC47 /* QuickSpec+Helper.swift in Sources */,
 				7E599F0D1FA05DFD00D1D598 /* reswift_nimblesnapshot_netTests.swift in Sources */,
+				7ED93FA81FA0655200C7FC47 /* ViewControllerSpec.swift in Sources */,
+				7ED93FAA1FA065CE00C7FC47 /* Mock.swift in Sources */,
+				7ED93FB11FA06B2A00C7FC47 /* QuickSpec+Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +660,7 @@
 		};
 		7E599F1D1FA05DFD00D1D598 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA08460144BD4D238AF022A /* Pods-reswift.nimblesnapshot.net.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +676,7 @@
 		};
 		7E599F1E1FA05DFD00D1D598 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBD7249B6C6E3251125E1B1 /* Pods-reswift.nimblesnapshot.net.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +692,7 @@
 		};
 		7E599F201FA05DFD00D1D598 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11725AC37F1D15EB7040AE66 /* Pods-reswift.nimblesnapshot.netTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +710,7 @@
 		};
 		7E599F211FA05DFD00D1D598 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EE76E6BA759E53FCE7B410 /* Pods-reswift.nimblesnapshot.netTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +728,7 @@
 		};
 		7E599F231FA05DFD00D1D598 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CBB79442F37001FFFD2816 /* Pods-reswift.nimblesnapshot.netUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +745,7 @@
 		};
 		7E599F241FA05DFD00D1D598 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0995F8DEB2E2C3F827D04E8C /* Pods-reswift.nimblesnapshot.netUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
