@@ -14,16 +14,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        mainStore.subscribe(self)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        ohayoulabel.text = ohayoulabel.text! + "---[prepare(for segue]---"
+        
+        // not called on test
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        mainStore.subscribe(self)
         mainStore.dispatch(
             CounterActionIncrease()
         )
