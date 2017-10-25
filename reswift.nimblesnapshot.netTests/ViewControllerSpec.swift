@@ -16,11 +16,11 @@ class ViewControllerSpec: QuickSpec {
     override func spec() {
         describe("ViewController") {
             var window: UIWindow!
-            var subject: UIViewController!
+            var subject: ViewController!
             
             beforeEach {
                 window = UIWindow()
-                subject =  UIStoryboard(name: "Main", bundle: Bundle(for: type(of: self))).instantiateInitialViewController() as! UIViewController
+                subject =  UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! ViewController
 //                    Mock.storyboard(name: "Main", bundle: Bundle(for: type(of: self))).instantiateInitialViewController() as! ViewController
             }
             
